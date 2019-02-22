@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ULF-8" />
+    <title>Form Sample</title>
+  </head>
+  <body>
+    <nav><a href="index.html">Welcome to home</a></nav>
+    <form method="POST" action="https://formspree.io/broslavska@gmail.com">
+      <p>
+        <select name="user-dog">
+          <option selected disabled>Choops a dog</option>
+          <option value="Shar Pei">Shar Pei</option>
+          <option value="Akita">Akita</option>
+          <option value="Dobermann">Dobermann</option>
+          <option value="Bulldog">Bulldog</option>
+        </select>
+      </p>
+      <p>Gender</p>
+      <label> A dog <input type="radio" name="gender" value="a dog" /> </label>
+      <label>
+        Dog female <input type="radio" name="gender" value="dog female" />
+      </label>
+
+      <p><b>How old</b></p>
+      <label>
+        <p>
+          1-3 months <input type="radio" name="how old" value=" 1-3 months" />
+        </p>
+      </label>
+      <label>
+        <p>
+          3-6 months <input type="radio" name="how old" value="3-6 months" />
+        </p>
+      </label>
+      <label>
+        <p>
+          6-9 months <input type="radio" name="how old" value=" 6-9 months" />
+        </p>
+      </label>
+      <label>
+        <p>Residence:</p>
+        <p>
+          <input type="checkbox" name="a1" /><span>Lviv</span><br /></label>
+		<label> <input type="checkbox" name="a2" /><span>Ternopil</span><br /></label>
+		<label> <input type="checkbox" name="a3" /><span>Rivne</span><br /></label>
+		<label><input type="checkbox" name="a4" /><span>Kyiv</span><br /></label>
+		<label><input type="checkbox" name="a5" /><span>Kherson</span><br /></label>
+		<label> <input type="checkbox" name="a6" /><span>Khmelnytskyi</span>
+        </p>
+      </label>
+      <label
+        >User Name:
+        <input type="text" placeholder="User Name" name="user-name"/> <br
+      /></label>
+      <label
+        >User Email:
+        <input type="email" placeholder="User Email" name="user-email"
+      /></label>
+      <br />
+      <label>
+        Test Message:
+        <textarea type="message" placeholder="Test Message"></textarea
+      ></label>
+      <p><input type="submit" value="SEND" /></p>
+    </form>
+  </body>
+</html>
